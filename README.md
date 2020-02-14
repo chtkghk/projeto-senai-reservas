@@ -1,3 +1,4 @@
+
 # Read Me: RAMBO!
 
 Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia com atenção todos os passos necessários para que a sua aplicação funcione corretamente.
@@ -5,16 +6,18 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 ## Pré-requisitos
 
 - Possuir Maven v3.0 ou superior instalado em sua máquina.
-> (http://maven.apache.org/download.cgi);
+ (http://maven.apache.org/download.cgi);
 
 - Possuir algum software de controle de versões que se comunique com o Git (Git Bash, GitKraken, Git GUI, SmartGit etc.). Recomenda-se que você instale o Git diretamente no seu CMD (no caso do Windows) para que os passos sejam corretamente seguidos.
-> (https://git-scm.com/download)
+ (https://git-scm.com/download)
 
 ## Instalação e configuração
 
 - Clone este repositório em uma pasta com o comando:
-> ` git clone "https://github.com/chtkghk/projeto-senai-reservas" `
-
+	``` 
+	git clone "https://github.com/chtkghk/projeto-senai-reservas" 
+	```
+------------
 - Vá até o diretório *Projeto SENAI/src/main/resources/* e abra o arquivo *application.properties*
 	- As três primeiras linhas do arquivo são directionadas à conexão com o seu banco de dados, configure a *url*, *usuário* e *senha* de acordo com seus dados.
 	
@@ -32,9 +35,11 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 	spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 	```
 	Caso você não utilize mysql, procure pelas informações que devem ser inseridas nestes campos de acordo com o banco de sua preferência para que o JPA funcione corretamente.
-
+------------
 - Inicialize o Spring Boot através do Maven com o seguinte comando:
-> ` mvn spring-boot:run `
+	```
+	mvn spring-boot:run
+	```
 
 Com isso, o servidor iniciará no endereço de IP especificado no arquivo *application.properties* , conforme mensionado nos passos acima. 
 Se por exemplo você configurou para que o servidor atendesse ao endereço de IP *localhost* e porta *9090*, para conectar-se ao seu aplicativo basta utilizar seu browser de preferência e entrar na url *localhost:9090*.
