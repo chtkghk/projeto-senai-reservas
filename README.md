@@ -9,12 +9,12 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 ## Instalação
 
 - Clone este repositório em uma pasta com o comando:
-` git clone "https://github.com/chtkghk/projeto-senai-reservas" `;
+``` git clone "https://github.com/chtkghk/projeto-senai-reservas" ```;
 
 - Inicie o seu terminal (cmd, caso esteja utilizando Windows) e vá até o diretório clonado;
 
 - Inicialize o Spring Boot através do Maven com o seguinte comando:
-` mvn spring-boot:run `;
+``` mvn spring-boot:run ```;
 
 Com isso, o servidor iniciará no endereço de IP especificado no arquivo *application.properties* , conforme mensionado nos passos acima. 
 Se por exemplo você configurou para que o servidor atendesse ao endereço de IP *localhost* e porta *9090*, para conectar-se ao seu aplicativo basta utilizar seu browser de preferência e entrar na url *localhost:9090*.
