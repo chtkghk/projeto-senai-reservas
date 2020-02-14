@@ -19,7 +19,7 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 	```
 ------------
 - Vá até o diretório *Projeto SENAI/src/main/resources/* e abra o arquivo *application.properties*
-	- As três primeiras linhas do arquivo são directionadas à conexão com o seu banco de dados, configure a *url*, *usuário* e *senha* de acordo com seus dados.
+	- As três primeiras linhas do arquivo são direcionadas à conexão com o seu banco de dados, configure a *url*, *usuário* e *senha* de acordo com seus dados.
 	
 	```
 	## Configurações default (MySQL — rambo):
