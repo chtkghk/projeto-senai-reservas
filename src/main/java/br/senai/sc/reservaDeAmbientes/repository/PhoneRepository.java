@@ -1,7 +1,7 @@
 package br.senai.sc.reservaDeAmbientes.repository;
 
-import br.senai.sc.reservaDeAmbientes.entities.Phone;
-import br.senai.sc.reservaDeAmbientes.entities.User;
+import br.senai.sc.reservaDeAmbientes.entity.Phone;
+import br.senai.sc.reservaDeAmbientes.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

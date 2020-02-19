@@ -1,8 +1,8 @@
 package br.senai.sc.reservaDeAmbientes.repository;
 
-import br.senai.sc.reservaDeAmbientes.entities.Booking;
-import br.senai.sc.reservaDeAmbientes.entities.Environment;
-import br.senai.sc.reservaDeAmbientes.entities.User;
+import br.senai.sc.reservaDeAmbientes.entity.Booking;
+import br.senai.sc.reservaDeAmbientes.entity.Environment;
+import br.senai.sc.reservaDeAmbientes.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

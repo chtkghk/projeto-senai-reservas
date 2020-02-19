@@ -1,4 +1,4 @@
-package br.senai.sc.reservaDeAmbientes.entities;
+package br.senai.sc.reservaDeAmbientes.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,7 +17,7 @@ public class Phone {
     @JoinColumn(name = "cdUser", nullable = false)
     @ManyToOne private User user;
 
-    @Column(name = "number", nullable = false, length = 13)
+    @Column(name = "numero", nullable = false, length = 13)
     private String number;
 
 }
