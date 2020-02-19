@@ -14,23 +14,21 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 ## Instalação e configuração
 
 - Clone este repositório em uma pasta com o comando:
-	``` 
+	``` bash
 	git clone "https://github.com/chtkghk/projeto-senai-reservas" 
 	```
 ------------
 - Vá até o diretório *Projeto SENAI/src/main/resources/* e abra o arquivo *application.properties*
 
 	- As três primeiras linhas do arquivo são direcionadas à conexão com o seu banco de dados, configure a *url*, *usuário* e *senha* de acordo com seus dados.
-	
-	```
+	```bash
 	## Configurações default (MySQL — rambo):
 	spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/rambo?serverTimezone=UTC
 	spring.datasource.username=root
 	spring.datasource.password=master123
 	```
 	- Caso você altere o dialeto ou o banco (não utilize MySQL), altere também, as informações contidas após o comentário "*Dialeto/DB JPA*", que são representadas abaixo.
-	
-	```
+	```bash
 	## Dialeto/DB JPA (default)
 	spring.jpa.database=mysql
 	spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
@@ -38,7 +36,7 @@ Obrigado por escolher RAMBO como seu aplicativo de Reserva de Ambientes, leia co
 	Caso você não utilize mysql, procure pelas informações que devem ser inseridas nestes campos de acordo com o banco de sua preferência para que o JPA funcione corretamente.
 ------------
 - Inicialize o Spring Boot através do Maven com o seguinte comando:
-	```
+	```shell
 	mvn spring-boot:run
 	```
 
