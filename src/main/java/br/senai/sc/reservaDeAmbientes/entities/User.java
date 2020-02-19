@@ -15,7 +15,7 @@ public class User {
     @Id private Long id;
 
     @Column(length = 100, nullable = false) private String nome;
-    @Column(length = 75, nullable = false) private String email;
+    @Column(length = 75, nullable = false, unique = true) private String email;
     @Column(length = 25, nullable = false) private String senha;
 
     @Column(columnDefinition = "tinyint(1) default 0", nullable = false)
