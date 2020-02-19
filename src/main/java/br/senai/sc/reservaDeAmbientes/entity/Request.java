@@ -1,4 +1,4 @@
-package br.senai.sc.reservaDeAmbientes.entities;
+package br.senai.sc.reservaDeAmbientes.entity;
 
 import br.senai.sc.reservaDeAmbientes.util.Status;
 import lombok.Data;
