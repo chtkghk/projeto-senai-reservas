@@ -17,7 +17,7 @@ public class Phone {
     @JoinColumn(name = "cdUser", nullable = false)
     @ManyToOne private User user;
 
-    @Column(name = "telefone", nullable = false, length = 13)
-    private String phone;
+    @Column(name = "number", nullable = false, length = 13)
+    private String number;
 
 }
