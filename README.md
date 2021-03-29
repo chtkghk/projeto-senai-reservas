@@ -53,23 +53,22 @@ Apesar da equipe ter, no fim, se deteriorado devido as regras impostas no curso 
 
 | Nome do integrante  | Função na equipe  |
 | ------------ | ------------ |
-| [Felipe Luan Cipriani][LinkedIn-Felipe] | Full-stack e Product Manager |
-| [Maria Gabriele Soares Leite][LinkedIn-Maria]  | Front-end e Designer (UX)  |
-| [Chrystian Ferreira da Silva][LinkedIn-Chrystian]  | DBA e Back-end |
+| [Felipe Luan Cipriani][LinkedIn-Felipe] | Full-stack |
+| [Maria Gabriele Soares Leite][LinkedIn-Maria]  | Front-end |
+| [Chrystian Ferreira da Silva][LinkedIn-Chrystian]  | Back-end |
 | [Yuri Rodrigues de Souza][LinkedIn-Yuri]  | Full-stack  |
 | [Matheus dos Santos][LinkedIn-Matheus]  | Front-end  |
 
-Quem escreve este arquivo e recria o sistema inteiro do zero com ciência dos integrantes sou eu, Felipe Luan Cipriani.
+Quem escreve este arquivo e recria o sistema com ciência dos integrantes sou eu, Felipe Luan Cipriani.
 
-**Todos foram alunos do SENAI e se formaram com o grau de técnico em análise e 		desenvolvimento de sistemas. 
-Turma Codificando o Futuro 2018/2.
-**
+**Todos foram alunos do SENAI e se formaram com o grau de técnico em análise e desenvolvimento de sistemas.**
+**Turma Codificando o Futuro 2018/2.**
 
 *Para contato, basta clicar no nome do integrante e você será redirecionado para seu LinkedIn.*
-*Você também pode me contatar através do e-mail: felipe.cipriani@softplan.com.br*
+*Você também pode me contatar através do e-mail: felipeluan.12@hotmail.com*
 
 [LinkedIn-Felipe]: https://www.linkedin.com/in/felipe-luan-cipriani/
-[LinkedIn-Maria]: https://https://www.linkedin.com/in/maria-leite-494474181/
+[LinkedIn-Maria]: https://www.linkedin.com/in/maria-gabriele-s/
 [LinkedIn-Chrystian]: https://www.linkedin.com/in/chrystian-ferreira-da-silva-4a86a01a0/
 [LinkedIn-Yuri]: https://www.linkedin.com/in/yuri-de-souza-7a6b90168/
-[LinkedIn-Matheus]: https://www.linkedin.com/in/matheus-dos-santos-3a872218b/
+[LinkedIn-Matheus]: https://www.linkedin.com/in/matheus-dos-santos-mski/
